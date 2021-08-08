@@ -239,7 +239,7 @@ footer  {
 
 @media (max-width: 288px) {
   #copa-america-live  { 
-    margin-left: 18px;
+    margin-left: 5%;
     padding-top: 50px;
     display: grid;
     grid-template-columns: auto;
@@ -258,14 +258,14 @@ footer  {
     border-radius: 15px; 
     background-color: #008CBA;
     overflow: hidden;
-    width: 240px;
+    width: 220px;
     height:0;
     transition: 3s ease;
   }
   #match-image-live { 
     border-radius: 15px; 
     display: block;
-    width: 240px;
+    width: 220px;
     height: 200px;   
     border-radius: 15px; 
     box-shadow: 0 0 25px rgb(252, 251, 250), 0 0 25px rgb(228, 171, 67);                                        

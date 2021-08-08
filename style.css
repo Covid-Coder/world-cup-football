@@ -237,7 +237,43 @@ footer  {
                 padding-top: 15px;
             }
 
-@media (max-width: 688px) {
+@media (max-width: 288px) {
+  #copa-america-live  { 
+    margin-left: 18px;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto; 
+  }
+
+  .watch-now-live h1  {
+    font-size: 2em;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .overlay    {
+    position: absolute;
+    bottom: 100%;
+    border-radius: 15px; 
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 240px;
+    height:0;
+    transition: 3s ease;
+  }
+  #match-image-live { 
+    border-radius: 15px; 
+    display: block;
+    width: 240px;
+    height: 200px;   
+    border-radius: 15px; 
+    box-shadow: 0 0 25px rgb(252, 251, 250), 0 0 25px rgb(228, 171, 67);                                        
+  }
+  
+}
+
+/* @media (max-width: 688px) {
   #copa-america-live  { 
     margin-left: 18px;
     padding-top: 50px;
@@ -270,4 +306,4 @@ footer  {
     box-shadow: 0 0 25px rgb(252, 251, 250), 0 0 25px rgb(228, 171, 67);                                        
   }
  
-}
+} */

@@ -260,15 +260,17 @@ footer  {
     border-radius: 15px; 
     background-color: #008CBA;
     overflow: hidden;
-    width: 250px;
+    width: 520px;
     height:0;
     transition: 3s ease;
   }
   #match-image-live { 
     border-radius: 15px; 
     display: block;
-    width: 215px;
-    height: 135px;   
+    width: 520px;
+    height: 400px;   
+    margin-top: 30px;
+    margin-left: 18px;
     border-radius: 15px; 
     box-shadow: 0 0 25px rgb(252, 251, 250), 0 0 25px rgb(228, 171, 67);                                        
   }
